@@ -1,0 +1,165 @@
+[
+    {
+      "id": 1,
+      "name": "Cheeseburger with Salad",
+      "price": "$19.00",
+      "description": "This is product description",
+      "image": "https://media.istockphoto.com/id/589115286/photo/double-cheeseburger-with-tomato-and-onion.jpg?s=612x612&w=0&k=20&c=rOrLK4HC2qvUHoFdW5MLC0dZPQIL2xtox6fxJcNSv0U=",
+      "rating": 5,
+      "category": "FastFood"
+    },
+    {
+      "id": 2,
+      "name": "Chocolate Shake",
+      "price": "$12.00",
+      "description": "Delicious chocolate milkshake",
+      "image": "https://bakewithshivesh.com/wp-content/uploads/2021/03/IMG-3300-1024x1536.jpg",
+      "rating": 4,
+      "category": "Drinks"
+    },
+    {
+      "id": 3,
+      "name": "Mango Smoothie",
+      "price": "$10.00",
+      "description": "A refreshing mango-flavored smoothie",
+      "image": "https://www.cubesnjuliennes.com/wp-content/uploads/2021/04/Mango-Smoothie-2-1017x1536.jpg",
+      "rating": 4.5,
+      "category": "Drinks"
+    },
+    {
+      "id": 4,
+      "name": "Peanut Chocolate Shake",
+      "price": "$12.00",
+      "description": "Delicious chocolate milkshake",
+      "image": "https://www.orchidsandsweettea.com/wp-content/uploads/2020/01/Peanut-Butter-Milkshake-4-of-4.jpg",
+      "rating": 4,
+      "category": "Drinks"
+    },
+    {
+      "id": 5,
+      "name": "Iced Coffee",
+      "price": "$8.50",
+      "description": "Chilled coffee with ice and milk",
+      "image": "https://frostingandfettuccine.com/wp-content/uploads/2022/12/Caramel-Iced-Coffee-6.jpg",
+      "rating": 4.2,
+      "category": "Drinks"
+    },
+    {
+      "id": 6,
+      "name": "Lemonade",
+      "price": "$5.00",
+      "description": "Freshly squeezed lemon juice with sugar",
+      "image": "https://i2.wp.com/lmld.org/wp-content/uploads/2022/04/Lemonade-4.jpg",
+      "rating": 4.3,
+      "category": "Drinks"
+    },
+    {
+      "id": 7,
+      "name": "Green Tea",
+      "price": "$6.00",
+      "description": "Healthy and soothing green tea",
+      "image": "https://www.livemint.com/web-stories/5-benefits-of-drinking-green-tea-daily-visual-story-11735956158653.html",
+      "rating": 4.7,
+      "category": "Drinks"
+    },
+    {
+      "id": 8,
+      "name": "Strawberry Milkshake",
+      "price": "$11.00",
+      "description": "Creamy strawberry-flavored milkshake",
+      "image": "https://www.thehungrybites.com/wp-content/uploads/2023/06/Strawberry-milkshake-frappuccino-no-ice-cream.jpg",
+      "rating": 4.5,
+      "category": "Drinks"
+    },
+    {
+      "id": 9,
+      "name": "Coconut Water",
+      "price": "$4.50",
+      "description": "Refreshing natural coconut water",
+      "image": "https://www.health.com/thmb/XQ71s4SqDOCZxS8bx02v6yINc1U=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Health-GettyImages-1491537674-6372fe5629dc4a25b08caf82605293de.jpg",
+      "rating": 4.6,
+      "category": "Drinks"
+    },
+    {
+      "id": 10,
+      "name": "Orange Juice",
+      "price": "$7.00",
+      "description": "Freshly squeezed orange juice",
+      "image": "https://plus.unsplash.com/premium_photo-1667543228378-ec4478ab2845?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "rating": 4.4,
+      "category": "Drinks"
+    },
+    {
+      "id": 11,
+      "name": "Ice Cream Sundae",
+      "price": "$8.00",
+      "description": "Vanilla ice cream with toppings",
+      "image": "https://icecreamfromscratch.com/wp-content/uploads/2022/09/Caramel-Sundae-1.2-1024x1536.jpg",
+      "rating": 5,
+      "category": "Desserts"
+    },
+    {
+      "id": 12,
+      "name": "Chocolate Cake",
+      "price": "$15.00",
+      "description": "Rich chocolate cake with frosting",
+      "image": "https://www.piesandtacos.com/wp-content/uploads/2024/04/chocolate-birthday-cake-1024x1536.jpg",
+      "rating": 4.8,
+      "category": "Desserts"
+    },
+    {
+      "id": 13,
+      "name": "Cheesecake",
+      "price": "$12.00",
+      "description": "Classic cheesecake with a graham cracker crust",
+      "image": "https://www.onceuponachef.com/images/2017/12/cheesecake-1120x1300.jpg",
+      "rating": 4.7,
+      "category": "Desserts"
+    },
+    {
+      "id": 14,
+      "name": "Brownie",
+      "price": "$6.00",
+      "description": "Fudgy chocolate brownie",
+      "image": "https://handletheheat.com/wp-content/uploads/2017/03/chewy-brownies-SQUARE-1536x1536.jpg",
+      "rating": 4.6,
+      "category": "Desserts"
+    },
+    {
+      "id": 15,
+      "name": "Apple Pie",
+      "price": "$10.00",
+      "description": "Traditional apple pie with a flaky crust",
+      "image": "https://cakesbymk.com/wp-content/uploads/2024/11/Template-Size-for-Blog-5-1203x1536.jpg",
+      "rating": 4.9,
+      "category": "Desserts"
+    },
+    {
+      "id": 16,
+      "name": "Tiramisu",
+      "price": "$14.00",
+      "description": "Italian coffee-flavored dessert",
+      "image": "https://handletheheat.com/wp-content/uploads/2023/12/best-tiramisu-recipe-SQUARE-1536x1536.jpg",
+      "rating": 4.8,
+      "category": "Desserts"
+    },
+    {
+      "id": 17,
+      "name": "Cupcake",
+      "price": "$5.00",
+      "description": "Delicious frosted cupcake",
+      "image": "https://theobroma.in/cdn/shop/files/ChocolateCupcake.jpg?v=1711514719",
+      "rating": 4.5,
+      "category": "Desserts"
+    },
+    {
+      "id": 18,
+      "name": "Pancakes",
+      "price": "$9.00",
+      "description": "Fluffy pancakes with syrup",
+      "image": "https://www.marthastewart.com/thmb/O75E9rwQRD3F1Q4zFKWDrdsg15c=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/338185-basic-pancakes-09-00b18f8418fd4e52bb2050173d083d04.jpg",
+      "rating": 4.7,
+      "category": "Desserts"
+    }
+  ]
+  

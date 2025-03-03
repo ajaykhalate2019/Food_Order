@@ -1,47 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Delivery from '../assets/Delivery-removebg.png';
 import img1 from '../assets/img1.jpg';
 import img from '../assets/img.jpg';
-import pizza from '../assets/pizza.jpg';
-import { Link } from 'react-router';
+import pizza1 from '../assets/Pizaa-A.png'
+import background from '../assets/background-zo.png';
+import Footer from './Footer';
+import CartCollection from './CartCollection';
 
 
 const Home = () => {
-
-  const[selectedCategory,setSelectedCategory] = useState("FastFood")
-  const products = [
-    {
-      id: 1,
-      name: 'Cheeseburger with Salad',
-      price: '$19.00',
-      description: 'This is product description',
-      image: "Cheeseburger.jpg",
-      rating: 5,
-      category: 'FastFood',
-    },
-    {
-      id: 2,
-      name: 'Cheeseburger with Salad',
-      price: '$19.00',
-      description: 'This is product description',
-      image: 'Cheeseburger.jpg',
-      rating: 4,
-      category: 'HotPizza',
-    },
-    {
-      id: 3,
-      name: 'Cheeseburger with Salad',
-      price: '$19.00',
-      description: 'This is product description',
-      image: 'Cheeseburger.jpg',
-      rating: 3,
-      category: 'RawMeat',
-    },
-  ];
-
-  const filterProduct = products.filter(
-    (product) => product.category === selectedCategory
-  )
 
   return (
     <div className="relative bg-gray-900 text-white h-screen">
@@ -67,59 +34,9 @@ const Home = () => {
           />
         </div>
       </div>
-      <section className="py-16 bg-gray-200">
-        <div className="container mx-auto text-center">
-          <h3 className="text-sm text-yellow-500 uppercase font-bold">
-            Quick pick
-          </h3>
-          <h2 className="text-4xl font-extrabold mt-2 text-yellow-600">
-            Popular Goods
-          </h2>
-          <div className="flex justify-center space-x-8 mt-6">
-            <button className="text-yellow-500 font-bold border-b-2"
-              onClick={() => setSelectedCategory('FastFood')}>
-              Fast Food
-            </button>
-            <button className="text-yellow-500 font-bold border-b-2"
-            onClick={() => setSelectedCategory('HotPizza')}>
-              Hot Pizza
-            </button>
-            <button className="text-yellow-500 font-bold border-b-2"
-            onClick={() => setSelectedCategory('FastFood')}>
-              Asian Food
-            </button>
-            <button className="text-yellow-500 font-bold border-b-2"
-            onClick={() => setSelectedCategory('RawMeat')}>
-              Raw Meat
-            </button>
-          </div>
-        </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 px-8">
-          {filterProduct.map((product) => (
-            <div key={product.id} className="bg-gray-300 p-6 rounded-lg shadow-lg">
-              <img
-                src={product.image}
-                className="w-full h-40 object-cover mb-4 rounded-lg"
-                alt={product.name}
-              />
-              <h4 className="text-lg font-bold text-black">{product.name}</h4>
-              {product.rating && (
-                <p className="text-yellow-500">
-                  {'⭐'.repeat(product.rating) + '✰'.repeat(5 - product.rating)}
-                </p>
-              )}
-              <p className="text-gray-500 text-sm mt-2">{product.description}</p>
-              <p className="text-lg font-extrabold text-gray-800 mt-2">
-                {product.price}
-              </p>
-              <Link to='/menu'>
-              <button className="bg-yellow-500 text-gray-900 px-4 py-2 mt-4 rounded-lg font-bold hover:bg-yellow-700"> Add to cart </button>
-              </Link>
-            </div>
-          ))}
-        </div>
-      </section>
+      <CartCollection />
+      
 
       <div className='flex flex-col item-center justify-center min-h-screen bg-gray-50 p-4 '>
         <h2 className='text-3xl font-bold text-gray-800 mb-2'>Our Recommendation</h2>
@@ -128,7 +45,7 @@ const Home = () => {
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl'>
           <div className='relative bg-white rounded-2xl shadow-lg overflow-hidden'>
             <img src= {img1} className='w-full h-full object-cover ' alt="" />
-            <div className='absolute bottom-0 left- 0 p-6 bd-white opacity-80 w-full '>
+            <div className='absolute bottom-0 left-0 p-6 bd-white opacity-100 w-full '>
               <h3 className='text-3xl font-bold text-gray-800'>Burger House</h3>
               <p className='text-gray-600'>Monday - Friday</p>
               <p className='text-gray-600'>09:00 - 220:00</p>
@@ -178,12 +95,12 @@ const Home = () => {
           </div>
         </div>
 
-        <button className='mt-10 px-8 py-3 bg-yellow-600 text-white text-lg font-bold'> View More</button>
+        <button className='mt-10  px-8 py-3 bg-yellow-600 text-white text-lg font-bold w-100 hover:bg-yellow-700' > View More</button>
       </div>
 
       <div className='flex flex-col lg:flex-row items-center justify-between bg-yellow-500 text-white overflow-hidden'>
         <div className='relative'>
-          <img src={pizza} className='max-w-xl' alt="" />
+          <img src={pizza1} className='max-w-xl' alt="" />
         </div>
         <div className='max-w-full md:w-1/2 lg:max-w-1/2'>
               <h1 className='text-7xl font-extrabold leading-tighgt'>Always <br/> 
@@ -198,9 +115,8 @@ const Home = () => {
       </div>
 
       <section className='relative w-full h-[500px] bg-cover bg-center' 
-      style={{backgroundImage:"url()", 
-        backgroundAttachment:"fixed"
-      }}>
+      style={{ backgroundImage: `url(${background})`, 
+      backgroundAttachment: "fixed" }}>
           <div className='absolute inset-0 bg-black opacity-50'></div>
             <div className='relative z-10 flex items-center justify-center h-full text-center text-white px-4'>
               <div>
@@ -213,26 +129,12 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          
-      </section>
 
-      <footer className='bg-gray-900 text-white py-8'>
-        <div className='container mx-auto text-center'>
-          <div className='mb-4'>
-            <h3 className='text-xl font-bold'>FoodDelivery</h3>
-            <p className='text-sm'>The best food delivery to your door.</p>
-          </div>
-          <div className='mb-6'>
-            <ul className='flex justify-center space-x-6'>
-              <li><a href="" className='hover:text-yellow'></a>Home</li>
-              <li> <a href="" className='hover:text-yellow'></a>Menu</li>
-            </ul>
-          </div>
-          <div className='text-sm'>
-            <p>&copy; 2025 FoodDelivery.All right reserved.</p>
-          </div>
-        </div>
-      </footer>
+               
+      </section>
+     
+     <Footer />
+
     </div>
   );
 };

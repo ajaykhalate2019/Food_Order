@@ -1,0 +1,345 @@
+[
+    {
+      "id": 1,
+      "name": "Cheeseburger with Salad",
+      "price": "$19.00",
+      "description": "Juicy cheeseburger with fresh salad, tomato, and onion",
+      "image": "https://media.istockphoto.com/id/589115286/photo/double-cheeseburger-with-tomato-and-onion.jpg?s=612x612&w=0&k=20&c=rOrLK4HC2qvUHoFdW5MLC0dZPQIL2xtox6fxJcNSv0U=",
+      "rating": 5,
+      "category": "FastFood"
+    },
+    {
+      "id": 2,
+      "name": "French Fries",
+      "price": "$5.00",
+      "description": "Crispy golden fries served with ketchup",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/0e/40/b1/92/even-french-fries-taste.jpg",
+      "rating": 4,
+      "category": "FastFood"
+    },
+    {
+      "id": 3,
+      "name": "Pepperoni Pizza",
+      "price": "$15.00",
+      "description": "Delicious hot pizza with pepperoni toppings",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZI0UfzLiRyNMAjQkAeC1hPpmltGbRrkmvPA&s",
+      "rating": 5,
+      "category": "HotPizza"
+    },
+    {
+      "id": 4,
+      "name": "Margherita Pizza",
+      "price": "$14.00",
+      "description": "Classic pizza with tomato, basil, and cheese",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/06/98/10/d1/margherita-pizza-at-the.jpg",
+      "rating": 5,
+      "category": "HotPizza"
+    },
+    {
+      "id": 5,
+      "name": "Chicken Breast",
+      "price": "$12.00",
+      "description": "Fresh raw chicken breast, perfect for cooking",
+      "image": "https://www.sandravalvassori.com/wp-content/uploads/2023/03/Img1044.jpg",
+      "rating": 4,
+      "category": "RawMeat"
+    },
+    {
+      "id": 6,
+      "name": "Beef Steak",
+      "price": "$25.00",
+      "description": "High-quality raw beef steak",
+      "image": "https://www.masala.tv/wp-content/uploads/2017/09/1-27.jpg",
+      "rating": 5,
+      "category": "RawMeat"
+    },
+    {
+      "id": 7,
+      "name": "Sushi Platter",
+      "price": "$22.00",
+      "description": "Assorted sushi rolls with fresh ingredients",
+      "image": "https://assets.woolworths.com.au/images/2010/417602.jpg?impolicy=wowcdxwbjbx&w=900&h=900",
+      "rating": 5,
+      "category": "AsianFood"
+    },
+    {
+      "id": 8,
+      "name": "Pad Thai",
+      "price": "$18.00",
+      "description": "Authentic Thai stir-fried noodles",
+      "image": "https://tastythriftytimely.com/wp-content/uploads/2023/01/Homemade-Vegan-Pad-Thai-Featured.jpg",
+      "rating": 4,
+      "category": "AsianFood"
+    },
+    {
+      "id": 9,
+      "name": "Dumplings",
+      "price": "$10.00",
+      "description": "Steamed or fried dumplings with dipping sauce",
+      "image": "https://www.recipetineats.com/tachyon/2022/09/Vegetable-Dumplings-1-on-plate.jpg",
+      "rating": 4,
+      "category": "AsianFood"
+    },
+    {
+      "id": 10,
+      "name": "Chicken Sandwich",
+      "price": "$19.00",
+      "description": "This is product description",
+      "image": "https://thebigmansworld.com/wp-content/uploads/2024/11/spicy-chicken-sandwich-1024x1536.jpg",
+      "rating": 5,
+      "category": "FastFood"
+    },
+    {
+      "id": 11,
+      "name": "Crispy Fried Chicken",
+      "price": "$19.00",
+      "description": "This is product description",
+      "image": "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fit,w_730,h_548/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2021-12-Fried-Chicken-Wings%2Fkitchn_deckitchn_dec4258-1_88e423_landscape",
+      "rating": 5,
+      "category": "FastFood"
+    },
+    {
+      "id": 12,
+      "name": "Hot Dog",
+      "price": "$18.00",
+      "description": "This is product description",
+      "image": "https://simplehomeedit.com/wp-content/uploads/2024/10/Loaded-Scandi-Hotdogs-1.webp",
+      "rating": 5,
+      "category": "FastFood"
+    },
+    {
+      "id": 13,
+      "name": "Dumplings",
+      "price": "$10.00",
+      "description": "Steamed or fried dumplings with dipping sauce",
+      "image": "https://www.vecteezy.com/png/55623671-a-plate-of-dumplings-with-sauce-and-garnish",
+      "rating": 4,
+      "category": "AsianFood"
+    },
+    {
+      "id": 14,
+      "name": "Onion Rings",
+      "price": "$15.00",
+      "description": "This is product description",
+      "image": "https://www.seriouseats.com/thmb/HCAYoWRCk2PwEQv5SzW-jumTFcE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2015__04__20150412-Baked-Mozzarella-Stuffed-Onion-Rings-Cheese-Morgan-Eisenberg-4945d402042240f09c59873506a95b90.jpg",
+      "rating": 5,
+      "category": "FastFood"
+    },
+    {
+      "id": 15,
+      "name": "BBQ Chicken Pizza",
+      "price": "$16.99",
+      "description": "Smoky BBQ chicken with red onions and mozzarella cheese.",
+      "image": "https://www.licious.in/blog/wp-content/uploads/2020/12/BBQ-Chicken-Pizza.jpg",
+      "rating": 4,
+      "category": "HotPizza"
+    },
+    {
+      "id": 16,
+      "name": "Veggie Supreme Pizza",
+      "price": "$14.50",
+      "description": "Loaded with bell peppers, olives, onions, and mushrooms.",
+      "image": "https://www.thursdaynightpizza.com/wp-content/uploads/2022/06/veggie-pizza-overhead-sliced.png",
+      "rating": 4,
+      "category": "HotPizza"
+    },
+    {
+      "id": 17,
+      "name": "Hawaiian Pizza",
+      "price": "$15.00",
+      "description": "Classic combination of ham, pineapple, and cheese.",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/hawaiian-pizza-lead-65f4641d61062.jpg?crop=1xw:1xh;center,top&resize=640:*",
+      "rating": 4.5,
+      "category": "HotPizza"
+    },
+    {
+      "id": 18,
+      "name": "Chiken Cheese Burst Pizza",
+      "price": "$17.99",
+      "description": "Rich and cheesy pizza with an extra cheese-filled crust.",
+      "image": "https://cdn.dotpe.in/longtail/item_thumbnails/7885519/riWZMAlA-800-800.webp",
+      "rating": 4,
+      "category": "HotPizza"
+    },
+    {
+      "id": 19,
+      "name": "Meat Lovers Pizza",
+      "price": "$18.50",
+      "description": "Topped with pepperoni, sausage, bacon, and ground beef.",
+      "image": "https://www.jessicagavin.com/wp-content/uploads/2022/02/meat-lovers-pizza-28-1025x1536.jpg",
+      "rating": 4.7,
+      "category": "HotPizza"
+    },
+    {
+      "id": 20,
+      "name": "Mushroom Truffle Pizza",
+      "price": "$19.99",
+      "description": "Gourmet pizza with mushrooms, truffle oil, and arugula.",
+      "image": "https://www.foodiecrush.com/wp-content/uploads/2018/05/Truffle-Mushroom-Pizza-foodiecrush.com-017.jpg",
+      "rating": 4.8,
+      "category": "HotPizza"
+    },
+    {
+      "id": 21,
+      "name": "Spicy Jalapeño Pizza",
+      "price": "$15.99",
+      "description": "Fiery hot pizza with jalapeños, spicy sauce, and cheese.",
+      "image": "https://www.vindulge.com/wp-content/uploads/2023/02/Pizza-with-Jalapeno-Coppa-and-Hot-Honey.jpg",
+      "rating": 4.6,
+      "category": "HotPizza"
+    },
+    {
+      "id": 22,
+      "name": "Beef Ribeye Steak",
+      "price": "$12.99 per lb",
+      "description": "Premium cut ribeye steak with rich marbling.",
+      "image": "https://www.wholesomeyum.com/wp-content/uploads/2024/01/wholesomeyum-Ribeye-Steak-Recipe-6.jpg",
+      "rating": 4.9,
+      "category": "RawMeat"
+    },
+    {
+      "id": 23,
+      "name": "Lamb Chops",
+      "price": "$15.00 per lb",
+      "description": "Tender and juicy lamb chops, perfect for grilling.",
+      "image": "https://cookingwithclaudy.com/wp-content/uploads/2024/03/20240301_133153.jpg",
+      "rating": 4.7,
+      "category": "RawMeat"
+    },
+    {
+      "id": 24,
+      "name": "Honey Garlic Pork Tenderloin",
+      "price": "$9.99 per lb",
+      "description": "Lean and tender pork tenderloin cut.",
+      "image": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2023/12/Honey-Garlic-Pork-Tenderloin-10-1024x1536.jpg",
+      "rating": 4.6,
+      "category": "RawMeat"
+    },
+    {
+      "id": 25,
+      "name": "Ground Turkey",
+      "price": "$6.99 per lb",
+      "description": "Lean ground turkey, ideal for healthy meals.",
+      "image": "https://www.howtocook.recipes/wp-content/uploads/2021/01/Ground-turkey-recipe.jpg",
+      "rating": 4.5,
+      "category": "RawMeat"
+    },
+    {
+      "id": 26,
+      "name": "Duck Breast",
+      "price": "$13.50 per lb",
+      "description": "Premium duck breast with skin for a crispy finish.",
+      "image": "https://www.triedandtruerecipe.com/wp-content/uploads/2019/12/Perfectly-Seared-Duck-Breast-with-Cipollini-Onions_Hero-1024x597-1.jpg",
+      "rating": 4.7,
+      "category": "RawMeat"
+    },
+    {
+      "id": 27,
+      "name": "Veal Cutlets",
+      "price": "$14.99 per lb",
+      "description": "Tender veal cutlets, perfect for schnitzels.",
+      "image": "https://thebigmansworld.com/wp-content/uploads/2024/03/veal-cutlets-1024x1536.jpg",
+      "rating": 4.8,
+      "category": "RawMeat"
+    },
+    {
+      "id": 28,
+      "name": "Salmon Fillet",
+      "price": "$16.50 per lb",
+      "description": "Fresh and rich salmon fillet, ready to cook.",
+      "image": "https://toriavey.com/images/2014/04/MG_5907-900x675.jpg",
+      "rating": 4.9,
+      "category": "RawMeat"
+    },
+    {
+      "id": 29,
+      "name": "Beef Brisket",
+      "price": "$10.99 per lb",
+      "description": "Perfectly marbled beef brisket, great for smoking.",
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/slow-cooker-pot-rost-a529726.jpg?quality=90&webp=true&resize=375,341",
+      "rating": 4.7,
+      "category": "RawMeat"
+    },
+    {
+      "id": 30,
+      "name": "Shrimp (Uncooked)",
+      "price": "$18.99 per lb",
+      "description": "Fresh raw shrimp, deveined and ready to cook.",
+      "image": "https://st2.depositphotos.com/4160417/9058/i/950/depositphotos_90587612-stock-photo-raw-uncooked-shrimps.jpg",
+      "rating": 4.8,
+      "category": "RawMeat"
+    },
+    {
+      "id": 31,
+      "name": "Vegetable Ramen",
+      "price": "$15.00",
+      "description": "Japanese noodle soup with a rich vegetable broth, mushrooms, and bok choy.",
+      "image": "https://www.marathonsandmotivation.com/wp-content/uploads/2020/05/Ramen-with-Vegetables-3_1-scaled-960x640.jpg.webp",
+      "rating": 4.8,
+      "category": "AsianFood"
+    },
+    {
+      "id": 32,
+      "name": "Ramen Bowl",
+      "price": "$16.99",
+      "description": "Japanese noodle soup with pork, egg, and seaweed in a rich broth.",
+      "image": "https://makeandtakes.com/wp-content/uploads/pork-and-edamame-ramen-with-eggs.jpg",
+      "rating": 4.9,
+      "category": "AsianFood"
+    },
+    {
+      "id": 33,
+      "name": "Peking Duck",
+      "price": "$28.50",
+      "description": "Crispy roasted duck served with hoisin sauce and pancakes.",
+      "image": "https://cravinghomecooked.com/wp-content/uploads/2024/02/peking-duck-1-19-1229x1536.jpg",
+      "rating": 5,
+      "category": "AsianFood"
+    },
+    {
+      "id": 34,
+      "name": "Chicken Teriyaki",
+      "price": "$15.99",
+      "description": "Grilled chicken glazed with a savory teriyaki sauce, served with rice.",
+      "image": "https://img.taste.com.au/Myy5N5x9/w720-h480-cfill-q80/taste/2010/01/chicken-teriyaki-cropped-199893-1.jpg",
+      "rating": 4.8,
+      "category": "AsianFood"
+    },
+    {
+      "id": 35,
+      "name": "Beef Bulgogi",
+      "price": "$17.99",
+      "description": "Korean-style marinated beef, grilled to perfection.",
+      "image": "https://glebekitchen.com/wp-content/uploads/2018/03/bulgogibeefhigh-1.jpg",
+      "rating": 4.7,
+      "category": "AsianFood"
+    },
+    {
+      "id": 36,
+      "name": "Tom Yum Soup",
+      "price": "$13.50",
+      "description": "Spicy and sour Thai soup with shrimp and lemongrass.",
+      "image": "https://www.recipetineats.com/tachyon/2019/09/Tom-Yum-soup_2.jpg?resize=900%2C1125&zoom=0.86",
+      "rating": 4.6,
+      "category": "AsianFood"
+    },
+    {
+      "id": 37,
+      "name": "General Tso's Chicken",
+      "price": "$14.99",
+      "description": "Crispy fried chicken tossed in a sweet and spicy sauce.",
+      "image": "https://natashaskitchen.com/wp-content/uploads/2020/07/General-Tsos-Chicken-4-1024x1536.jpg",
+      "rating": 4.8,
+      "category": "AsianFood"
+    },
+    {
+      "id": 38,
+      "name": "Mango Sticky Rice",
+      "price": "$9.50",
+      "description": "Thai dessert with sweet sticky rice, fresh mango, and coconut milk.",
+      "image": "https://i0.wp.com/iankewks.com/wp-content/uploads/2022/07/IMG_1615.jpg?resize=800%2C530&ssl=1",
+      "rating": 4.9,
+      "category": "AsianFood"
+    }
+  ]
+  

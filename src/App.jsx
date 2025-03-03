@@ -1,22 +1,20 @@
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+import { useState } from 'react';
 import { BrowserRouter as Router,Route,Routes} from 'react-router'
-import './App.css'
-import Navbar from './components/Navbar'
-import Home from './components/Home'
-import Menu from './components/Menu'
-import { useState } from 'react'
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Menu from './components/Menu';
 import CartPage from './components/CartPage'
-
+5
 function App() {
-  const[carItems,setCartItems]=useState([])
+  const[cartItems,setCartItems]=useState([])
 
   const addToCart = (item) => {
-    const existingItem = carItems.find((carItem) => carItem.id === item.id)
+    const existingItem = carItems.find((cartItem) => cartItem.id === item.id)
 
     if (existingItem) {
       setCartItems(
-        carItems.map((carItem) => carItem.id === item.id ? {...carItem,quantity:carItem.quantity + 1} : carItem) 
+        carItems.map((cartItem) => cartItem.id === item.id ? {...cartItem,quantity:cartItem.quantity + 1} 
+        : cartItem) 
       )
     }else {
       setCartItems([...carItems,{...item,quantity:1}])
@@ -26,10 +24,10 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar carItem={carItems}/>
+        <Navbar cartItem={cartItems}/>
         <Routes>
           <Route path='/' element={<Home/>}></Route>
-          <Route path='/cart' element={<CartPage carItems={carItems} setCartItems={setCartItems}/>}></Route>
+          <Route path='/cart' element={<CartPage cartItems={cartItems} setCartItems={setCartItems}/>}></Route>
           <Route path='/menu' element={<Menu addToCart={addToCart}/>}></Route>
         </Routes>
       </Router>

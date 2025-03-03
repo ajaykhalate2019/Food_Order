@@ -1,30 +1,29 @@
-import React from 'react'
+import React from 'react';
 
-const CartPage = (carItems,setCartItems) => {
+const CartPage = ({cartItems,setCartItems}) => {
 
-    const totalPrice = carItems.reduce(
-    (total,item) => total + parseFloat(item.price.slice(1)) * item.quantity,0
-    )
+    const totalPrice = cartItems.reduce(
+    (total,item) => total + parseFloat(item.price.slice(1)) * item.quantity,0)
 
     const handleRemoveItem = (itemId) => {
-        setCartItems(cardItems.filter(item => item.id !== itemId))
+        setCartItems(cartItems.filter(item => item.id !== itemId))
     }
 
     const handleQ = (itemId,newQuantity) => {
         if (newQuantity < 1) return;
-        setCartItems(carItems.map(item => 
+        setCartItems(cartItems.map(item => 
             item.id === itemId ? {...item,quantity:newQuantity} : item
         ))
             
         }
   return (
     <div className='p-8 max-w-4xl mx-auto bg-white'>
-      <h2>Your Caet</h2>
-      {carItems.length === 0 ? (
+      <h2>Your Cart</h2>
+      {cartItems.length === 0 ? (
         <p>Your Cart Is Empty!</p>
       ) : (
         <div>
-            {cardItems.map((item) => (
+            {cartItems.map((item) => (
                 <div key={item.id} className='flex justify-between item-center border-b border-gray-300 py-4'>
                     <div className='flex items-center space-x-4'>
                         <img src="" className='w-24 h-24 object-cover' alt="" />

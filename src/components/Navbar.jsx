@@ -16,7 +16,7 @@ const Navbar = (cartItems) => {
             <Link to="/menu" className='hover:text-yellow-500 font-bold'>Menu</Link>
         </nav>
          <div className='space-x-4 md:flex relative'>
-            <span className='font-bold'>1521-78561</span>
+            <span className='font-bold'>9340-522-794</span>
                 <Link to='/cart'><FaCartPlus /> 
                 {cartItemCount > 0 && (
                 <span className='absolute -top-2 right-2 bg-yellow-500 text-white rounded-full px-2 py-1 text-xs'>
