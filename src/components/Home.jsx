@@ -1,4 +1,6 @@
 import React from 'react';
+import { useState } from 'react';
+import products from '../Models/db.json';
 import Delivery from '../assets/Delivery-removebg.png';
 import img1 from '../assets/img1.jpg';
 import img from '../assets/img.jpg';
@@ -8,7 +10,12 @@ import Footer from './Footer';
 import CartCollection from './CartCollection';
 
 
-const Home = () => {
+const Home = ({addToCart}) => {
+  const[selectedCategory,setSelectedCategory]=useState("FastFood")
+
+  const filterPRoduct=products.filter(
+    (product) => product.category === selectedCategory
+  )
 
   return (
     <div className="relative bg-gray-900 text-white h-screen">
@@ -35,68 +42,67 @@ const Home = () => {
         </div>
       </div>
 
-      <CartCollection />
+      <CartCollection addToCart={addToCart} />
+ 
+
+      <div className='flex flex-col items-center justify-center min-h-screen bg-gray-50 p-4'>
+        <h2 className='text-3xl font-bold text-gray-800 mb-2'>Our Recommendations</h2>
+        <h1 className='text-5xl font-extrabold text-yellow-600 mb-10'>Cafes & Restaurants</h1>
       
-
-      <div className='flex flex-col item-center justify-center min-h-screen bg-gray-50 p-4 '>
-        <h2 className='text-3xl font-bold text-gray-800 mb-2'>Our Recommendation</h2>
-        <h1 className='text-5xl font-extrabold text-yellow-600 mb-10'>Cafes & Restaurant</h1>
-
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl'>
           <div className='relative bg-white rounded-2xl shadow-lg overflow-hidden'>
-            <img src= {img1} className='w-full h-full object-cover ' alt="" />
-            <div className='absolute bottom-0 left-0 p-6 bd-white opacity-100 w-full '>
-              <h3 className='text-3xl font-bold text-gray-800'>Burger House</h3>
-              <p className='text-gray-600'>Monday - Friday</p>
-              <p className='text-gray-600'>09:00 - 220:00</p>
-            </div>
+            <img src={img1} className="w-full h-full object-cover"></img>
+          <div className='absolute bottom-0 left-0 p-6 bg-white opacity-80 w-full'>
+            <h3 className='text-3xl font-bold text-gray-800'> Burger House</h3>
+            <p className='text-gray-600'>Monday - Friday</p>
+            <p className='text-gray-600'>09:00 - 22:00</p>
           </div>
-
+          </div>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-            <div className='relative bg-white rounded-2xl shadow-lg overflow-hidden'>
-              <img src={img} alt="" className='w-full h-56 object-cover'/>
+            <div className=' relative bg-white rounded-2xl shadow-lg overflow-hidden'>
+              <img src={img} className='w-full h-56 object-cover'></img>
               <div className='p-4'>
-                <span className='absolute top-4 left-4 bg-yellow-500 text-white px-3 py-1 rounded-full text-sm'>Recommended</span>
+                <span className=' absolute top-4 left-4 bg-yellow-500 text-white px-3 py-1 rounded-full text-sm'>Recommended</span>
                 <h3 className='text-2xl font-bold text-gray-800'>Restaurant</h3>
                 <p className='text-gray-600'>Monday - Friday</p>
-              <p className='text-gray-600'>09:00 - 220:00</p>
+                <p className='text-gray-600'>09:00 - 22:00</p>
               </div>
             </div>
 
-            <div className='relative bg-white rounded-2xl shadow-lg overflow-hidden'>
-              <img src={img} alt="" className='w-full h-56 object-cover'/>
+            <div className=' relative bg-white rounded-2xl shadow-lg overflow-hidden'>
+              <img src={img1} className='w-full h-56 object-cover'></img>
               <div className='p-4'>
-                <span className='absolute top-4 left-4 bg-yellow-500 text-white px-3 py-1 rounded-full text-sm'>Recommended</span>
+                <span className=' absolute top-4 left-4 bg-yellow-500 text-white px-3 py-1 rounded-full text-sm'>Recommended</span>
                 <h3 className='text-2xl font-bold text-gray-800'>Restaurant</h3>
                 <p className='text-gray-600'>Monday - Friday</p>
-              <p className='text-gray-600'>09:00 - 220:00</p>
+                <p className='text-gray-600'>09:00 - 22:00</p>
               </div>
             </div>
 
-            <div className='relative bg-white rounded-2xl shadow-lg overflow-hidden'>
-              <img src={img} alt="" className='w-full h-56 object-cover'/>
+            <div className=' relative bg-white rounded-2xl shadow-lg overflow-hidden'>
+              <img src={img1} className='w-full h-56 object-cover'></img>
               <div className='p-4'>
-                <span className='absolute top-4 left-4 bg-yellow-500 text-white px-3 py-1 rounded-full text-sm'>Recommended</span>
+                <span className=' absolute top-4 left-4 bg-yellow-500 text-white px-3 py-1 rounded-full text-sm'>Recommended</span>
                 <h3 className='text-2xl font-bold text-gray-800'>Restaurant</h3>
                 <p className='text-gray-600'>Monday - Friday</p>
-              <p className='text-gray-600'>09:00 - 220:00</p>
+                <p className='text-gray-600'>09:00 - 22:00</p>
               </div>
             </div>
 
-            <div className='relative bg-white rounded-2xl shadow-lg overflow-hidden'>
-              <img src={img} alt="" className='w-full h-56 object-cover'/>
+            <div className=' relative bg-white rounded-2xl shadow-lg overflow-hidden'>
+              <img src={img1} className='w-full h-56 object-cover'></img>
               <div className='p-4'>
-                <span className='absolute top-4 left-4 bg-yellow-500 text-white px-3 py-1 rounded-full text-sm'>Recommended</span>
+                <span className=' absolute top-4 left-4 bg-yellow-500 text-white px-3 py-1 rounded-full text-sm'>Recommended</span>
                 <h3 className='text-2xl font-bold text-gray-800'>Restaurant</h3>
                 <p className='text-gray-600'>Monday - Friday</p>
-              <p className='text-gray-600'>09:00 - 220:00</p>
+                <p className='text-gray-600'>09:00 - 22:00</p>
               </div>
             </div>
           </div>
         </div>
 
-        <button className='mt-10  px-8 py-3 bg-yellow-600 text-white text-lg font-bold w-100 hover:bg-yellow-700' > View More</button>
-      </div>
+        <button className='mt-10 px-8 py-3 bg-yellow-600 text-white text-lg font-bold '>View More</button>
+       </div>
 
       <div className='flex flex-col lg:flex-row items-center justify-between bg-yellow-500 text-white overflow-hidden'>
         <div className='relative'>

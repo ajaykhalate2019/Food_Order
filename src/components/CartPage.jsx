@@ -26,7 +26,7 @@ const CartPage = ({cartItems,setCartItems}) => {
             {cartItems.map((item) => (
                 <div key={item.id} className='flex justify-between item-center border-b border-gray-300 py-4'>
                     <div className='flex items-center space-x-4'>
-                        <img src="" className='w-24 h-24 object-cover' alt="" />
+                        <img src={item.image} className='w-24 h-24 object-cover' alt="" />
                         <div>
                             <p className='font-semibold text-xl'>{item.name}</p>
                             <p className='text-gray-500'>{item.price}</p>
